@@ -12,6 +12,7 @@
 [uiBoxDelete( uiBox, index )](#uiboxdelete-uibox-index)
 [uiBoxPadded( uiBox )](#uiboxpadded-uibox)
 [uiBoxSetPadded( uiBox, padded )](#uiboxsetpadded-uibox-padded)
+
 ---
 #### uiNewHorizontalBox()
 Arguments
