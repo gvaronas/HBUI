@@ -8,6 +8,8 @@ libs=hbui
 hbcs=hbct.hbc hbtip.hbc hbmemio.hbc
 
 #ldflags=`$HOME/libui/build/out/libui.dylib`
-ldflags="../../../libui/build/out/libui.dylib"
+{darwin}ldflags="${HB_WITH_LIBUI}/build/out/libui.dylib"
+{linux}ldflags="${HB_WITH_LIBUI}/build/out/libui.so"
+{win}ldflags="${HB_WITH_LIBUI}/build/out/libui.dll"
 
 gui=yes
