@@ -21,6 +21,7 @@ git pull
 
 ### How to build
 - on Windows, Unix, Darwin
+- (you must declare HB_WITH_LIBUI="the_path_to_libui")
 
 ```
 > hbmk2 hbui.hbp

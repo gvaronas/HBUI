@@ -6,6 +6,7 @@
 -olib/${hb_arch}/${hb_comp}/hbui
 
 -iinclude
+-i${HB_WITH_LIBUI}
 
 -instpath=${hb_lib}/
 

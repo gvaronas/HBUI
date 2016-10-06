@@ -1,6 +1,6 @@
 
 #include "hbapi.h"
-#include "../../../libui/ui.h"
+#include "ui.h"
 
 HB_FUNC( UINEWWINDOW ) {
     const char *title = hb_parc( 1 );
