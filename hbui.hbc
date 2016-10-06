@@ -1,0 +1,13 @@
+#
+
+prgflags=-w3 -es2
+
+incpaths=include
+#libpaths=lib/${hb_plat}/${hb_comp}
+libs=hbui
+hbcs=hbct.hbc hbtip.hbc hbmemio.hbc
+
+#ldflags=`$HOME/libui/build/out/libui.dylib`
+ldflags="../../../libui/build/out/libui.dylib"
+
+gui=yes
