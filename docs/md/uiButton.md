@@ -1,18 +1,14 @@
 # **uiButton**
----
 
 ### Description
 
----
-### Functions
-[uiNewButton( text )](#uinewbutton-text)
+## Functions
+- [uiNewButton( text )](#uinewbutton-text),
+- [uiButtonOnClicked( uiButton, uiButton, data )](#uibuttononclicked-uibutton-uibutton-data)
+- [uiButtonSetText( uiButton, text )](#uibuttonsettext-uibutton-text)
+- [uiButtonText( uiButton )](#uibuttontext-uibutton)
 
-[uiButtonOnClicked( uiButton, uiButton, data )](#uibuttononclicked-uibutton-uibutton-data)
-[uiButtonSetText( uiButton, text )](#uibuttonsettext-uibutton-text)
-[uiButtonText( uiButton )](#uibuttontext-uibutton)
-
----
-#### uiNewButton( text )
+## uiNewButton( text )
 Arguments
 - text
 
@@ -24,8 +20,7 @@ Simple example
 ```
 oButton := uiNewButton( "Open" )
 ```
----
-#### uiButtonOnClicked( uiButton, uiButton, data )
+## uiButtonOnClicked( uiButton, uiButton, data )
 Arguments
 - uiButton
 - uiButton
@@ -39,8 +34,7 @@ Simple example
 ```
 
 ```
----
-#### uiButtonSetText( uiButton, text )
+## uiButtonSetText( uiButton, text )
 Arguments
 - uiButton
 - text
@@ -53,8 +47,7 @@ Simple example
 ```
 
 ```
----
-#### uiButtonText( uiButton )
+## uiButtonText( uiButton )
 Arguments
 - uiButton
 
@@ -66,12 +59,11 @@ Simple example
 ```
 
 ```
----
-### Sample source code
+## Sample source code
 ```
 
 
 ```
 
-### Screenshots
+## Screenshots
 ![Linux](../tutorial/uiButton_Linux.png "With family Linux Elementary desktop Pantheon, based on GNOME")
