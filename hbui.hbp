@@ -15,5 +15,5 @@
 
 -instforce
 
-src/*.cpp
+src/*.c
 src/*.prg
