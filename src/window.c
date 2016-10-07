@@ -2,6 +2,14 @@
 #include "hbapi.h"
 #include "ui.h"
 
+static int onClose( uiWindow *w, void *data ) {
+    return 1;
+}
+
+static void registerOnCloseFunction( PHB_ITEM pFunction ) {
+
+}
+
 //_UI_EXTERN char *uiWindowTitle(uiWindow *w);
 //_UI_EXTERN void uiWindowSetTitle(uiWindow *w, const char *title);
 //_UI_EXTERN void uiWindowPosition(uiWindow *w, int *x, int *y);
@@ -17,10 +25,11 @@
 //_UI_EXTERN void uiWindowOnClosing(uiWindow *w, int (*f)(uiWindow *w, void *data), void *data);
 HB_FUNC( UIWINDOWONCLOSING ) {
     uiWindow *w = hb_parptr( 1 );
-    int (*f)( uiWindow *, void * );
-    void *data = hb_parptr( 3 );
-    if( w && f) {
-        uiWindowOnClosing( w, f, data );
+    PHB_ITEM pFunction = hb_param( 2, HB_IT_ANY );
+    if( w && pFunction ) {
+        void *data = hb_parptr( 3 );
+        registerOnCloseFunction( pFunction );
+        uiWindowOnClosing( w, onClose, data );
     }
 }
 
@@ -36,6 +45,5 @@ HB_FUNC( UINEWWINDOW ) {
     int width = hb_parni( 2 );
     int height = hb_parni( 3 );
     HB_BOOL hasMenu = hb_parl( 4 );
-    uiWindow *w = uiNewWindow( title, width, height, hasMenu );
-    hb_retptr( w );
+    hb_retptr( uiNewWindow( title, width, height, hasMenu ) );
 }
