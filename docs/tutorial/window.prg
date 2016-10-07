@@ -3,20 +3,20 @@
  */
 
 FUNCTION Main()
-    LOCAL w
+  LOCAL oWindow
+ 
+  IF ! uiInit()
+        Alert( "Failed to initializa libui..." )
+    RETURN NIL
+  ENDIF
 
-    IF ! uiInit()
-        alert("Failed to initializa libui...")
-        RETURN nil
-    ENDIF
+  oWindow := uiNewWindow( "main Window", 800, 600, .T. )
 
-    w := uiNewWindow("main Window",800,600,.T.)
+  ? "pointer:", oWindow
 
-    ? "pointer:", w
+  uiControlShow( oWindow )
 
-    uiControlShow( w )
+  uiMain()
+  uiUninit()
 
-    uiMain()
-    uiUninit()
-
-RETURN nil
+RETURN NIL
