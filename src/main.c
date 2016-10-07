@@ -12,10 +12,10 @@ HB_FUNC( UIINIT ) {
     if (err != NULL) {
 		fprintf(stderr, "error initializing libui: %s", err);
 		uiFreeInitError(err);
-		hb_retl( HB_TRUE );
+		hb_retl( HB_FALSE );
 	}
     else
-		hb_retl( HB_FALSE );
+		hb_retl( HB_TRUE );
 }
 
 HB_FUNC( UIMAIN ) {

@@ -2,7 +2,7 @@
 FUNCTION Main()
     LOCAL w
 
-    IF uiInit()
+    IF ! uiInit()
         alert("Failed to initializa libui...")
         RETURN nil
     ENDIF
