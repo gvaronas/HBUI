@@ -21,7 +21,8 @@ git pull
 
 ### How to build
 - on Windows, Unix, Darwin
-- (you must declare HB_WITH_LIBUI="the_path_to_libui")
+- (you must (i.e.) export HB_WITH_LIBUI="/the/path/to/libui")
+-   ( Darwin: you must declare where the LIBUI dynamic library is (i.e.): DYLD_LIBRARY_PATH="/the/path/to/libui/build/out" )  
 
 ```
 > hbmk2 hbui.hbp
