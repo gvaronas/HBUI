@@ -43,10 +43,37 @@ HB_FUNC( UIWINDOWONCLOSING ) {
 }
 
 //_UI_EXTERN int uiWindowBorderless(uiWindow *w);
+HB_FUNC( UIWINDOWBORDERLESS ) {
+    uiWindow *w = hb_parptr( 1 );
+    hb_retni( uiWindowBorderless( w );
+}
+
 //_UI_EXTERN void uiWindowSetBorderless(uiWindow *w, int borderless);
+HB_FUNC( UIWINDOWSETBORDERLESS ) {
+    uiWindow *w = hb_parptr( 1 );
+    int borderless = hb_parni( 2 );
+    uiWindowSetBorderless( w, borderless );
+}
+
 //_UI_EXTERN void uiWindowSetChild(uiWindow *w, uiControl *child);
+HB_FUNC( UIWINDOWSETCHILD ) {
+    uiWindow *w = hb_parptr( 1 );
+    uiControl *child = hb_parptr( 2 );
+    uiWindowSetChild( w, child );
+}
+
 //_UI_EXTERN int uiWindowMargined(uiWindow *w);
+HB_FUNC( UIWINDOWMARGINED ) {
+    uiWindow *w = hb_parptr( 1 );
+    hb_retni( uiWindowMargined( w );
+}
+
 //_UI_EXTERN void uiWindowSetMargined(uiWindow *w, int margined);
+HB_FUNC( UIWINDOWSETMARGINED ) {
+    uiWindow *w = hb_parptr( 1 );
+    int margined = hb_parni( 2 );
+    uiWindowSetMargined( w, margined );
+}
 
 //_UI_EXTERN uiWindow *uiNewWindow(const char *title, int width, int height, int hasMenubar);
 HB_FUNC( UINEWWINDOW ) {
