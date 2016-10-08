@@ -30,8 +30,7 @@ $ hbmk2 hbui.hbp
 To test it, type:
 ```
 $ cd docs/tutorial
-$ hbmk2 window.prg
-$ ./window
+$ hbmk2 window.prg -run
 ```
 
 ### Sample source code
