@@ -3,14 +3,14 @@
 ## Description
 
 ## Functions
-[uiNewEntry()](#uinewentry)
-[uiNewPasswordEntry()](#uinewpasswordentry)
-[uiNewSearchEntry()](#uinewsearchentry)
-[uiEntryOnChanged( uiEntry, Function, data )](#uientryonchanged-uientry-function-data)
-[uiEntryReadOnly( uiEntry )](#uientryreadonly-uientry)
-[uiEntrySetReadOnly( uiEntry, readonly )](#uientrysetreadonly-uientry-readonly)
-[uiEntrySetText( uiEntry, text )](#uientrysettext-uientry-text)
-[uiEntryText( uiEntry )](#uientrytext-uientry)
+- [uiNewEntry()](#uinewentry)
+- [uiNewPasswordEntry()](#uinewpasswordentry)
+- [uiNewSearchEntry()](#uinewsearchentry)
+- [uiEntryOnChanged( uiEntry, Function, data )](#uientryonchanged-uientry-function-data)
+- [uiEntryReadOnly( uiEntry )](#uientryreadonly-uientry)
+- [uiEntrySetReadOnly( uiEntry, readonly )](#uientrysetreadonly-uientry-readonly)
+- [uiEntrySetText( uiEntry, text )](#uientrysettext-uientry-text)
+- [uiEntryText( uiEntry )](#uientrytext-uientry)
 
 ## uiNewEntry()
 Arguments
