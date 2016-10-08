@@ -8,7 +8,7 @@ FUNCTION Main()
         RETURN nil
     ENDIF
 
-    w := uiNewWindow("main Window",640,400,1)
+    w := uiNewWindow("Welcome to Harbour HBUI (https://github.com/RJopek/HBUI) !",640,400,1)
 
     tab := uiNewTab()
     uiWindowSetChild( w, tab )
