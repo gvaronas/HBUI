@@ -6,13 +6,12 @@
 ---
 ### Functions
 
-[uiNewCheckbox( text )](#uinewcheckbox-text)
-
-[uiCheckboxChecked( uiCheckbox )](#uicheckboxchecked-uicheckbox)
-[uiCheckboxOnToggled( uiCheckbox, uiCheckbox, data )](#uicheckboxontoggled-uicheckbox-uicheckbox-data)
-[uiCheckboxSetChecked( uiCheckbox, checked )](#uicheckboxsetchecked-uicheckbox-checked)
-[uiCheckboxSetText( uiCheckbox, text )](#uicheckboxsettext-uicheckbox-text)
-[uiCheckboxText( uiCheckbox )](#uicheckboxtext-uicheckbox)
+- [uiNewCheckbox( text )](#uinewcheckbox-text)
+- [uiCheckboxChecked( uiCheckbox )](#uicheckboxchecked-uicheckbox)
+- [uiCheckboxOnToggled( uiCheckbox, uiCheckbox, data )](#uicheckboxontoggled-uicheckbox-uicheckbox-data)
+- [uiCheckboxSetChecked( uiCheckbox, checked )](#uicheckboxsetchecked-uicheckbox-checked)
+- [uiCheckboxSetText( uiCheckbox, text )](#uicheckboxsettext-uicheckbox-text)
+- [uiCheckboxText( uiCheckbox )](#uicheckboxtext-uicheckbox)
 
 ---
 #### uiNewCheckbox( text )
