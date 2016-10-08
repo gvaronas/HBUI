@@ -82,19 +82,7 @@ HB_FUNC( UIWINDOWONPOSITIONCHANGED ) {
 				uiWindowOnPositionChanged( w, onPosition, data );
 		}
 }
----
-//_UI_EXTERN void uiWindowOnClosing(uiWindow *w, int (*f)(uiWindow *w, void *data), void *data);
-HB_FUNC( UIWINDOWONCLOSING ) {
-    uiWindow *w = hb_parptr( 1 );
-    PHB_ITEM pFunction = hb_param( 2, HB_IT_ANY );
-    if( w && pFunction ) {
-        void *data = hb_parptr( 3 );
-        registerOnCloseFunction( pFunction );
-        uiWindowOnClosing( w, onClosing, data );
-    }
-}
 
----
 //_UI_EXTERN void uiWindowContentSize(uiWindow *w, int *width, int *height);
 HB_FUNC( UIWINDOWCONTENTSIZE ) {
     uiWindow *w = hb_parptr( 1 );
