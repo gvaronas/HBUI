@@ -3,13 +3,13 @@
 ## Description
 
 ## Functions
-[uiNewTab()](#uinewtab)
-[uiTabAppend( uiTab, name, uiControl )](#uitabappend-uitab-name-uicontrol)
-[uiTabDelete( uiTab, index )](#uitabdelete-uitab-index)
-[uiTabInsertAt( uiTab, name, before, uiControl )](#uitabinsertat-uitab-name-before-uicontrol)
-[uiTabMargined( uiTab, page )](#uitabmargined-uitab-page)
-[uiTabNumPages( uiTab )](#uitabnumpages-uitab)
-[uiTabSetMargined( uiTab, page, margined )](#uitabsetmargined-uitab-page-margined)
+- [uiNewTab()](#uinewtab)
+- [uiTabAppend( uiTab, name, uiControl )](#uitabappend-uitab-name-uicontrol)
+- [uiTabDelete( uiTab, index )](#uitabdelete-uitab-index)
+- [uiTabInsertAt( uiTab, name, before, uiControl )](#uitabinsertat-uitab-name-before-uicontrol)
+- [uiTabMargined( uiTab, page )](#uitabmargined-uitab-page)
+- [uiTabNumPages( uiTab )](#uitabnumpages-uitab)
+- [uiTabSetMargined( uiTab, page, margined )](#uitabsetmargined-uitab-page-margined)
 
 ## uiNewTab()
 Arguments
