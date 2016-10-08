@@ -6,17 +6,17 @@
 ---
 ### Functions
 
-[uiControlDestroy( uiControl )](#uicontroldestroy-uicontrol)
-[uiControlDisable( uiControl )](#uicontroldisable-uicontrol)
-[uiControlEnable( uiControl )](#uicontrolenable-uicontrol)
-[uiControlEnabled( uiControl )](#uicontrolenabled-uicontrol)
-[uiControlHandle( uiControl )](#uicontrolhandle-uicontrol)
-[uiControlHide( uiControl )](#uicontrolhide-uicontrol)
-[uiControlParent( uiControl )](#uicontrolparent-uicontrol)
-[uiControlSetParent( uiControl, uiControl )](#uicontrolsetparent-uicontrol-uicontrol)
-[uiControlShow( uiControl )](#uicontrolshow-uicontrol)
-[uiControlToplevel( uiControl )](#uicontroltoplevel-uicontrol)
-[uiControlVisible( uiControl )](#uicontrolvisible-uicontrol)
+- [uiControlDestroy( uiControl )](#uicontroldestroy-uicontrol)
+- [uiControlDisable( uiControl )](#uicontroldisable-uicontrol)
+- [uiControlEnable( uiControl )](#uicontrolenable-uicontrol)
+- [uiControlEnabled( uiControl )](#uicontrolenabled-uicontrol)
+- [uiControlHandle( uiControl )](#uicontrolhandle-uicontrol)
+- [uiControlHide( uiControl )](#uicontrolhide-uicontrol)
+- [uiControlParent( uiControl )](#uicontrolparent-uicontrol)
+- [uiControlSetParent( uiControl, uiControl )](#uicontrolsetparent-uicontrol-uicontrol)
+- [uiControlShow( uiControl )](#uicontrolshow-uicontrol)
+- [uiControlToplevel( uiControl )](#uicontroltoplevel-uicontrol)
+- [uiControlVisible( uiControl )](#uicontrolvisible-uicontrol)
 
 ---
 #### uiControlDestroy( uiControl )
