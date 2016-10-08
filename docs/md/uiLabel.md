@@ -3,9 +3,9 @@
 ## Description
 
 ## Functions
-[uiNewLabel( text )](#uinewlabel-text)
-[uiLabelSetText( uiLabel, text )](#uilabelsettext-uilabel-text)
-[uiLabelText( uiLabel )](#uilabeltext-uilabel)
+- [uiNewLabel( text )](#uinewlabel-text)
+- [uiLabelSetText( uiLabel, text )](#uilabelsettext-uilabel-text)
+- [uiLabelText( uiLabel )](#uilabeltext-uilabel)
 
 ## uiNewLabel( text )
 Arguments
