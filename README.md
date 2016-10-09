@@ -61,7 +61,9 @@ RETURN NIL
 
 ![GNU/Linux](docs/tutorial/window_ubuntu.png "With family Linux Ubuntu desktop, based on GNOME")
 
-![OS X](docs/tutorial/window_darwin.png "Desktop Aqua in OS X")
+![OS X](docs/tutorial/window_darwin_01.png "Desktop Aqua in OS X  1/3")
+![OS X](docs/tutorial/window_darwin_02.png "Desktop Aqua in OS X  2/3")
+![OS X](docs/tutorial/window_darwin_03.png "Desktop Aqua in OS X  3/3")
 
 ### License
 ---
