@@ -38,7 +38,7 @@ HB_FUNC( UITABNUMPAGES ) {
 HB_FUNC( UITABMARGINED ) {
     void *t = hb_parptr( 1 );
     if( t ) {
-        hb_retni( uiTabMargined( uiTab( t ), hb_parni( 1 ) ) );
+        hb_retni( uiTabMargined( uiTab( t ), hb_parni( 2 ) ) );
     }
 }
 

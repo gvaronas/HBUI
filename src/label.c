@@ -14,7 +14,7 @@ HB_FUNC( UILABELTEXT ) {
 HB_FUNC( UILABELSETTEXT ) {
     uiLabel *l = hb_parptr( 1 );
     if( l ) {
-        uiLabelSetText( l, hb_parc( 1 ) );
+        uiLabelSetText( l, hb_parc( 2 ) );
     }
 }
 

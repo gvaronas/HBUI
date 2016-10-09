@@ -30,7 +30,7 @@ HB_FUNC( UICONTROLSETPARENT ) {
     void *c = hb_parptr( 1 );
     void *parent = hb_parptr( 2 );
 
-    if( c ) {
+    if( c && parent ) {
         uiControlSetParent( uiControl( c ), uiControl( parent ) );
     }
 }
@@ -114,7 +114,7 @@ HB_FUNC( UICONTROLVERIFYSETPARENT ) {
     void *c = hb_parptr( 1 );
     void *parent = hb_parptr( 2 );
 
-    if( c ) {
+    if( c && parent ) {
         uiControlVerifySetParent( uiControl( c ), uiControl( parent ) );
     }
 }
