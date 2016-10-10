@@ -1,19 +1,20 @@
 #
 
--n1 -es2 -w3 -gc3 -l
 -hblib
 -inc
--olib/${hb_arch}/${hb_comp}/hbui
+
+-olib/${hb_arch}/${hb_comp}/${hb_name}
+
+-w3 -es2
+-gc3 -l
 
 -iinclude
 -i${HB_WITH_LIBUI}
 
--instpath=${hb_lib}/
-
--instfile=inc:include/*
--instpath=inc:${hb_inc}/hbui/
-
--instforce
+-hbx=${hb_name}
 
 src/*.c
 src/*.prg
+
+$hb_pkg_dynlib.hbm
+$hb_pkg_install.hbm

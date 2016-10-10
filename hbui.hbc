@@ -1,13 +1,10 @@
 #
 
-prgflags=-w3 -es2
-
 incpaths=include
-libs=hbui
-hbcs=hbct.hbc hbtip.hbc hbmemio.hbc
 
-{darwin}ldflags+="${HB_WITH_LIBUI}/build/out/libui.dylib"
-{linux}ldflags+="${HB_WITH_LIBUI}/build/out/libui.so"
-{win}ldflags+="${HB_WITH_LIBUI}/build/out/libui.dll"
+libs=${hb_name}
+
+libpaths=${HB_WITH_LIBUI}/build/out
+libs=ui
 
 gui=yes
