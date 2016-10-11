@@ -8,8 +8,15 @@
 -w3 -es2
 -gc3 -l
 
+-depurlbase=libui:https://github.com/andlabs/libui
+-depkeyhead=libui:ui.h
+-depcontrol=libui:${HB_WITH_LIBUI}
+-depincpath=libui:/usr/include
+-depimplibs=libui:build/out/libui.dll
+-depimplibd=libui:libui
+-depfinish=libui
+
 -iinclude
--i${HB_WITH_LIBUI}
 
 -hbx=${hb_name}
 
